@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function info(){
+            alert("hello")
+
+        }
+        function add(a,b){
+            var sum=a+b;
+            alert("sum of a + b is "+sum)
+        }
+        function getnum()
+        {
+            return 100;
+        }
+        function employee(id,desig,salary){
+            if(desig=="manager"){
+                return salary+5000
+            }
+        }
+       // info();
+    </script>
+</head>
+<body>
+    <script>
+       // info();
+        //add(3,5);
+        //var num=getnum();
+        //alert("num is"+num)
+        var updatedsalary=employee(1,"manager",50000);
+        alert("salary is "+updatedsalary)
+    </script>
+</body>
+</html>

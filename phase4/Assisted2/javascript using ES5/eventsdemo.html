@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+       function info(){
+            alert("Event fired...")
+        }
+
+        function readname(){
+            var fname=document.getElementById("n1").value
+            var lname=document.getElementById("n2").value
+            var fullname=fname+" "+lname
+            document.getElementById("n3").value=fullname
+            document.getElementById("n4").innerHTML=fullname
+
+            //alert("ur name is "+name)
+        }
+        function h1readtag(){
+           // var tag=document.getElementById("abc").innerHTML
+           var tag=document.getElementsByTagName("h1")[0].innerHTML
+            alert(tag)
+        }
+
+    </script>
+</head>
+<body>
+    <h1 name="xyz" id="abc">Wlecome to html</h1>
+    <input type="button" value="click here" onclick="info()">
+    <br>
+    fname: <input type="text" name="fname" id="n1"> <br>
+    lname: <input type="text" name="lname" id="n2"> <br>
+    fullname: <input type="text" name="fullname" id="n3" readonly> <br>
+    <div id="n4"></div>
+    <input type="button" value="readme" onclick="readname()">
+    <input type="button" value="tag value" onclick="h1readtag()">
+</body>
+</html>
