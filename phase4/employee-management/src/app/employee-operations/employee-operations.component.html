@@ -1,0 +1,13 @@
+<div class="text-center">
+    <h2> <strong> Employee details </strong></h2>
+    <p>Id: {{employee.id}}</p>
+    <p>First_name: {{employee.first_name}}</p>
+    <p>Last_name: {{employee.last_name}}</p>
+    <p>Email: {{employee.email}}</p>
+    <input type="button" value="view all " (click)="viewAll()">
+    <input type="button" value="Delete " (click)="Delete(employee.id)"><br><br>
+    <a routerLink="/update/{{employee.id}}"> <input type="button" value="Update"></a>
+    <br>
+    {{msg}}
+
+</div>
