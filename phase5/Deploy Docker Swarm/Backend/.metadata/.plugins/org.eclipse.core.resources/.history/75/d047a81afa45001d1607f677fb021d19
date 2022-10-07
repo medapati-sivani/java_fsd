@@ -1,0 +1,23 @@
+package com.controller;
+import com.bean.Product;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("product")
+public class ProductController {
+	@GetMapping(value="allproduct",produces = MediaType.APPLICATION_JSON_VALUE)
+	public List<Product> getallproducts()
+	{
+		List<Product> listofproducts= new ArrayList<Product>();
+		listofproducts.add(new Product(1,"TV",49000,"https://www.google.com/aclk?sa=l&ai=DChcSEwjB_ZXnpc36AhWVfysKHf4wCIQYABABGgJzZg&sig=AOD64_23O1t4pqZiA1idprFwwxM8vviigQ&adurl&ctype=5&ved=2ahUKEwjV0Innpc36AhUS8nMBHQSgCeMQvhd6BAgBEG0"));
+				return listofproducts;
+		
+	}
+}

@@ -1,0 +1,23 @@
+package com.controller;
+import com.bean.Product;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("product")
+public class ProductController {
+	@GetMapping(value="allproduct",produces = MediaType.APPLICATION_JSON_VALUE)
+	public List<Product> getallproducts()
+	{
+		List<Product> listofproducts= new ArrayList<Product>();
+		listofproducts.add(1,"hello",90000,"url");
+		return listofproducts;
+		
+	}
+}

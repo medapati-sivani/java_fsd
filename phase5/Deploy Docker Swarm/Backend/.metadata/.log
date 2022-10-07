@@ -1,0 +1,1880 @@
+!SESSION 2022-10-07 09:41:59.496 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data C:\Users\SIVANI\OneDrive\Desktop\phase5\myImages\Backend -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wildwebdeveloper 4 0 2022-10-07 09:42:03.437
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wildwebdeveloper [737]
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.ui; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.ui; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.ui [1103]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+              org.eclipse.tm4e.core [1100]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.languageconfiguration
+    -> Bundle-SymbolicName: org.eclipse.tm4e.languageconfiguration; bundle-version="0.5.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.languageconfiguration [1101]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2022-10-07 09:42:03.440
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wildwebdeveloper.xml [740]
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.ui; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.ui; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.ui [1103]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+              org.eclipse.tm4e.core [1100]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry; bundle-version="0.3.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.languageconfiguration; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.languageconfiguration; bundle-version="0.5.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.languageconfiguration [1101]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.linuxtools.docker.editor.ls 4 0 2022-10-07 09:42:03.462
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.linuxtools.docker.editor.ls [1092]
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.ui; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.ui; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.ui [1103]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+              org.eclipse.tm4e.core [1100]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.tm4e.core 4 0 2022-10-07 09:42:03.465
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.tm4e.core [1100]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.tm4e.languageconfiguration 4 0 2022-10-07 09:42:03.470
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.tm4e.languageconfiguration [1101]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.ui; bundle-version="0.6.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.ui; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.ui [1103]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+              org.eclipse.tm4e.core [1100]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.tm4e.registry 4 0 2022-10-07 09:42:03.473
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.tm4e.registry [1102]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+       org.eclipse.tm4e.core [1100]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2022-10-07 09:42:03.476
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.tm4e.ui [1103]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+       org.eclipse.tm4e.core [1100]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry; bundle-version="0.6.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.ui 2 0 2022-10-07 09:42:07.170
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-07 09:42:07.171
+!MESSAGE Commands should really have a category: plug-in='org.springframework.ide.eclipse.boot', id='org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools', categoryId='org.springframework.ide.eclipse.boot.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-10-07 09:42:21.619
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-07 09:42:21.619
+!MESSAGE Commands should really have a category: plug-in='org.springframework.ide.eclipse.boot', id='org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools', categoryId='org.springframework.ide.eclipse.boot.commands.category'
+
+!ENTRY org.eclipse.jface 2 0 2022-10-07 09:42:25.117
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 09:42:25.117
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70882cb7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6980e66a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 09:42:25.117
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1988e095,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ec63b9a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-10-07 09:42:36.932
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\SIVANI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-10-07 09:51:34.031
+!MESSAGE The 'org.eclipse.mylyn.java.ui.LegacyJavadocCompletionProposalComputer_all' proposal computer from the 'org.eclipse.mylyn.java.ui' plug-in did not complete normally. Unable to instantiate the extension.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in org.eclipse.mylyn.java.ui was unable to load class org.eclipse.jdt.internal.ui.text.javadoc.LegacyJavadocCompletionProposalComputer.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:198)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.createComputer(CompletionProposalComputerDescriptor.java:323)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.getComputer(CompletionProposalComputerDescriptor.java:290)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.sessionStarted(CompletionProposalComputerDescriptor.java:436)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.sessionStarted(CompletionProposalCategory.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$CompletionListener.assistSessionStarted(ContentAssistProcessor.java:124)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.lambda$10(ContentAssistant.java:2467)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4797)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent(ContentAssistant.java:2464)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions(ContentAssistant.java:1886)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1854)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:189)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:232)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1798)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5155)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4778)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.ui.text.javadoc.LegacyJavadocCompletionProposalComputer cannot be found by org.eclipse.mylyn.java.ui_3.24.0.v20170629-2230
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+	... 75 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2022-10-07 09:51:34.045
+!MESSAGE Plug-in org.eclipse.mylyn.java.ui was unable to load class org.eclipse.jdt.internal.ui.text.javadoc.LegacyJavadocCompletionProposalComputer.
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.jdt.internal.ui.text.javadoc.LegacyJavadocCompletionProposalComputer cannot be found by org.eclipse.mylyn.java.ui_3.24.0.v20170629-2230
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.createComputer(CompletionProposalComputerDescriptor.java:323)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.getComputer(CompletionProposalComputerDescriptor.java:290)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.sessionStarted(CompletionProposalComputerDescriptor.java:436)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.sessionStarted(CompletionProposalCategory.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$CompletionListener.assistSessionStarted(ContentAssistProcessor.java:124)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.lambda$10(ContentAssistant.java:2467)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4797)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent(ContentAssistant.java:2464)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions(ContentAssistant.java:1886)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1854)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:189)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:232)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1798)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5155)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4778)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-10-07 09:53:45.223
+!MESSAGE Error occured processing 'com.ProductBackendApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-10-07 09:56:43.259
+!MESSAGE Error occured processing 'com.ProductBackendApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-10-07 09:56:58.262
+!MESSAGE The 'org.eclipse.mylyn.java.ui.LegacyJavadocCompletionProposalComputer_all' proposal computer from the 'org.eclipse.mylyn.java.ui' plug-in did not complete normally. Unable to instantiate the extension.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in org.eclipse.mylyn.java.ui was unable to load class org.eclipse.jdt.internal.ui.text.javadoc.LegacyJavadocCompletionProposalComputer.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:198)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.createComputer(CompletionProposalComputerDescriptor.java:323)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.getComputer(CompletionProposalComputerDescriptor.java:290)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.sessionStarted(CompletionProposalComputerDescriptor.java:436)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.sessionStarted(CompletionProposalCategory.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$CompletionListener.assistSessionStarted(ContentAssistProcessor.java:124)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.lambda$10(ContentAssistant.java:2467)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4797)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent(ContentAssistant.java:2464)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions(ContentAssistant.java:1886)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1854)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:189)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:232)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1798)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5155)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4778)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.ui.text.javadoc.LegacyJavadocCompletionProposalComputer cannot be found by org.eclipse.mylyn.java.ui_3.24.0.v20170629-2230
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+	... 75 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2022-10-07 09:56:58.263
+!MESSAGE Plug-in org.eclipse.mylyn.java.ui was unable to load class org.eclipse.jdt.internal.ui.text.javadoc.LegacyJavadocCompletionProposalComputer.
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.jdt.internal.ui.text.javadoc.LegacyJavadocCompletionProposalComputer cannot be found by org.eclipse.mylyn.java.ui_3.24.0.v20170629-2230
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.createComputer(CompletionProposalComputerDescriptor.java:323)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.getComputer(CompletionProposalComputerDescriptor.java:290)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.sessionStarted(CompletionProposalComputerDescriptor.java:436)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.sessionStarted(CompletionProposalCategory.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$CompletionListener.assistSessionStarted(ContentAssistProcessor.java:124)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.lambda$10(ContentAssistant.java:2467)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4797)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent(ContentAssistant.java:2464)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions(ContentAssistant.java:1886)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1854)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:189)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:232)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1798)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5155)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4778)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-10-07 10:02:33.183
+!MESSAGE Error occured processing 'com.ProductBackendApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-10-07 10:03:37.928
+!MESSAGE Error occured processing 'com.ProductBackendApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-10-07 10:07:31.376
+!MESSAGE Error occured processing 'com.ProductBackendApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-10-07 10:10:01.155
+!MESSAGE Error occured processing 'com.ProductBackendApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-10-07 10:10:19.671
+!MESSAGE Error occured processing 'com.ProductBackendApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+!SESSION 2022-10-07 12:32:04.029 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wildwebdeveloper 4 0 2022-10-07 12:32:09.827
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wildwebdeveloper [737]
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.languageconfiguration
+    -> Bundle-SymbolicName: org.eclipse.tm4e.languageconfiguration; bundle-version="0.5.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.languageconfiguration [1101]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+              org.eclipse.tm4e.core [1100]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.ui; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.ui; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.ui [1103]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2022-10-07 12:32:09.830
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wildwebdeveloper.xml [740]
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry; bundle-version="0.3.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+              org.eclipse.tm4e.core [1100]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.languageconfiguration; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.languageconfiguration; bundle-version="0.5.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.languageconfiguration [1101]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.ui; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.ui; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.ui [1103]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.linuxtools.docker.editor.ls 4 0 2022-10-07 12:32:09.856
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.linuxtools.docker.editor.ls [1092]
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.ui; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.ui; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.ui [1103]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+              org.eclipse.tm4e.core [1100]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.tm4e.core 4 0 2022-10-07 12:32:09.860
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.tm4e.core [1100]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.tm4e.languageconfiguration 4 0 2022-10-07 12:32:09.864
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.tm4e.languageconfiguration [1101]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+       org.eclipse.tm4e.core [1100]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.ui; bundle-version="0.6.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.ui; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.ui [1103]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.tm4e.registry 4 0 2022-10-07 12:32:09.868
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.tm4e.registry [1102]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+       org.eclipse.tm4e.core [1100]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2022-10-07 12:32:09.873
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.tm4e.ui [1103]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+       org.eclipse.tm4e.core [1100]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry; bundle-version="0.6.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.ui 2 0 2022-10-07 12:32:14.458
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-07 12:32:14.458
+!MESSAGE Commands should really have a category: plug-in='org.springframework.ide.eclipse.boot', id='org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools', categoryId='org.springframework.ide.eclipse.boot.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-10-07 12:32:30.845
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-07 12:32:30.845
+!MESSAGE Commands should really have a category: plug-in='org.springframework.ide.eclipse.boot', id='org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools', categoryId='org.springframework.ide.eclipse.boot.commands.category'
+
+!ENTRY org.eclipse.jface 2 0 2022-10-07 12:32:33.424
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 12:32:33.424
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35bfa7be,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@482034fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 12:32:33.425
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41bd8ec9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d306d27,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-10-07 12:32:44.918
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\SIVANI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-10-07 15:17:30.774 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wildwebdeveloper 4 0 2022-10-07 15:17:35.821
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wildwebdeveloper [737]
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+              org.eclipse.tm4e.core [1100]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.ui; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.ui; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.ui [1103]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.languageconfiguration
+    -> Bundle-SymbolicName: org.eclipse.tm4e.languageconfiguration; bundle-version="0.5.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.languageconfiguration [1101]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2022-10-07 15:17:35.824
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wildwebdeveloper.xml [740]
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.ui; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.ui; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.ui [1103]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+              org.eclipse.tm4e.core [1100]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry; bundle-version="0.3.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.languageconfiguration; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.languageconfiguration; bundle-version="0.5.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.languageconfiguration [1101]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.linuxtools.docker.editor.ls 4 0 2022-10-07 15:17:35.828
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.linuxtools.docker.editor.ls [1092]
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.ui; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.ui; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.ui [1103]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+              org.eclipse.tm4e.core [1100]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.tm4e.core 4 0 2022-10-07 15:17:35.832
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.tm4e.core [1100]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.tm4e.languageconfiguration 4 0 2022-10-07 15:17:35.835
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.tm4e.languageconfiguration [1101]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+              org.eclipse.tm4e.core [1100]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.ui; bundle-version="0.6.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.ui; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.ui [1103]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.tm4e.registry 4 0 2022-10-07 15:17:35.838
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.tm4e.registry [1102]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+       org.eclipse.tm4e.core [1100]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2022-10-07 15:17:35.841
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.tm4e.ui [1103]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+       org.eclipse.tm4e.core [1100]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"
+  Unresolved requirement: Require-Bundle: org.eclipse.tm4e.registry; bundle-version="0.6.0"
+    -> Bundle-SymbolicName: org.eclipse.tm4e.registry; bundle-version="0.6.0.202206241118"; singleton:="true"
+       org.eclipse.tm4e.registry [1102]
+         Unresolved requirement: Require-Bundle: org.eclipse.tm4e.core; bundle-version="0.5.0"
+           -> Bundle-SymbolicName: org.eclipse.tm4e.core; bundle-version="0.5.0.202206232130"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.ui 2 0 2022-10-07 15:17:41.313
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-07 15:17:41.313
+!MESSAGE Commands should really have a category: plug-in='org.springframework.ide.eclipse.boot', id='org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools', categoryId='org.springframework.ide.eclipse.boot.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-10-07 15:17:59.812
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-07 15:17:59.812
+!MESSAGE Commands should really have a category: plug-in='org.springframework.ide.eclipse.boot', id='org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools', categoryId='org.springframework.ide.eclipse.boot.commands.category'
+
+!ENTRY org.eclipse.jface 2 0 2022-10-07 15:18:02.152
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 15:18:02.152
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35bfa7be,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@482034fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 15:18:02.153
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41bd8ec9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d306d27,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-10-07 15:18:14.727
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\SIVANI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.debug.ui 4 0 2022-10-07 15:23:23.360
+!MESSAGE Launch shortcut 'org.eclipse.jdt.junit.junitShortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.jdt.junit.canLaunchAsJUnit, type=class org.eclipse.jdt.internal.core.CompilationUnit, tester=org.eclipse.jdt.internal.junit.JUnitPropertyTester@333d081c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:163)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:59)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:280)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:283)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:214)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:137)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1191)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1171)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$7(ActionContributionItem.java:1134)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3639)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+Caused by: org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(324) The type java.lang.annotation.Annotation cannot be resolved. It is indirectly referenced from required .class files
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:162)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:229)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2684)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5155)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:123)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:248)
+	at org.eclipse.jdt.internal.compiler.lookup.WildcardBinding.resolve(WildcardBinding.java:837)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:224)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedTypeBinding.resolve(ParameterizedTypeBinding.java:1245)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:219)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypesFor(BinaryTypeBinding.java:1885)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.getMethods(BinaryTypeBinding.java:1566)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedAnnotationBinding.getElementValuePairs(UnresolvedAnnotationBinding.java:54)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.hashCode(AnnotationBinding.java:277)
+	at org.eclipse.jdt.core.dom.DefaultBindingResolver$AnnotationIdentityBinding.hashCode(DefaultBindingResolver.java:550)
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1012)
+	at java.base/java.util.concurrent.ConcurrentHashMap.putIfAbsent(ConcurrentHashMap.java:1541)
+	at org.eclipse.jdt.core.dom.DefaultBindingResolver.getAnnotationInstance(DefaultBindingResolver.java:565)
+	at org.eclipse.jdt.core.dom.TypeBinding.resolveAnnotationBindings(TypeBinding.java:136)
+	at org.eclipse.jdt.core.dom.TypeBinding.getAnnotations(TypeBinding.java:122)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder$Annotation.matchesNameInAnnotationHierarchy(JUnit5TestFinder.java:185)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder$Annotation.matchesNameInAnnotationHierarchy(JUnit5TestFinder.java:189)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder$Annotation.annotates(JUnit5TestFinder.java:164)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder$Annotation.annotatesTypeOrSuperTypes(JUnit5TestFinder.java:115)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder.isTest(JUnit5TestFinder.java:305)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder.internalIsTest(JUnit5TestFinder.java:284)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder.isTest(JUnit5TestFinder.java:255)
+	at org.eclipse.jdt.internal.junit.util.CoreTestSearchEngine.isTestOrTestSuite(CoreTestSearchEngine.java:60)
+	at org.eclipse.jdt.internal.junit.JUnitPropertyTester.isJUnitTest(JUnitPropertyTester.java:122)
+	at org.eclipse.jdt.internal.junit.JUnitPropertyTester.canLaunchAsJUnitTest(JUnitPropertyTester.java:88)
+	at org.eclipse.jdt.internal.junit.JUnitPropertyTester.test(JUnitPropertyTester.java:72)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 62 more
+!SUBENTRY 1 org.eclipse.core.expressions 4 0 2022-10-07 15:23:23.379
+!MESSAGE Error evaluating Property [org.eclipse.jdt.junit.canLaunchAsJUnit, type=class org.eclipse.jdt.internal.core.CompilationUnit, tester=org.eclipse.jdt.internal.junit.JUnitPropertyTester@333d081c]
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(324) The type java.lang.annotation.Annotation cannot be resolved. It is indirectly referenced from required .class files
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:162)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:229)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2684)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5155)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:123)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:248)
+	at org.eclipse.jdt.internal.compiler.lookup.WildcardBinding.resolve(WildcardBinding.java:837)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:224)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedTypeBinding.resolve(ParameterizedTypeBinding.java:1245)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:219)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypesFor(BinaryTypeBinding.java:1885)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.getMethods(BinaryTypeBinding.java:1566)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedAnnotationBinding.getElementValuePairs(UnresolvedAnnotationBinding.java:54)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.hashCode(AnnotationBinding.java:277)
+	at org.eclipse.jdt.core.dom.DefaultBindingResolver$AnnotationIdentityBinding.hashCode(DefaultBindingResolver.java:550)
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1012)
+	at java.base/java.util.concurrent.ConcurrentHashMap.putIfAbsent(ConcurrentHashMap.java:1541)
+	at org.eclipse.jdt.core.dom.DefaultBindingResolver.getAnnotationInstance(DefaultBindingResolver.java:565)
+	at org.eclipse.jdt.core.dom.TypeBinding.resolveAnnotationBindings(TypeBinding.java:136)
+	at org.eclipse.jdt.core.dom.TypeBinding.getAnnotations(TypeBinding.java:122)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder$Annotation.matchesNameInAnnotationHierarchy(JUnit5TestFinder.java:185)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder$Annotation.matchesNameInAnnotationHierarchy(JUnit5TestFinder.java:189)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder$Annotation.annotates(JUnit5TestFinder.java:164)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder$Annotation.annotatesTypeOrSuperTypes(JUnit5TestFinder.java:115)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder.isTest(JUnit5TestFinder.java:305)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder.internalIsTest(JUnit5TestFinder.java:284)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit5TestFinder.isTest(JUnit5TestFinder.java:255)
+	at org.eclipse.jdt.internal.junit.util.CoreTestSearchEngine.isTestOrTestSuite(CoreTestSearchEngine.java:60)
+	at org.eclipse.jdt.internal.junit.JUnitPropertyTester.isJUnitTest(JUnitPropertyTester.java:122)
+	at org.eclipse.jdt.internal.junit.JUnitPropertyTester.canLaunchAsJUnitTest(JUnitPropertyTester.java:88)
+	at org.eclipse.jdt.internal.junit.JUnitPropertyTester.test(JUnitPropertyTester.java:72)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:163)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:59)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:280)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:283)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:214)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:137)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1191)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1171)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$7(ActionContributionItem.java:1134)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3639)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-10-07 15:27:45.235
+!MESSAGE The 'org.eclipse.mylyn.java.ui.LegacyJavadocCompletionProposalComputer_all' proposal computer from the 'org.eclipse.mylyn.java.ui' plug-in did not complete normally. Unable to instantiate the extension.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in org.eclipse.mylyn.java.ui was unable to load class org.eclipse.jdt.internal.ui.text.javadoc.LegacyJavadocCompletionProposalComputer.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:198)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.createComputer(CompletionProposalComputerDescriptor.java:323)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.getComputer(CompletionProposalComputerDescriptor.java:290)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.sessionStarted(CompletionProposalComputerDescriptor.java:436)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.sessionStarted(CompletionProposalCategory.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$CompletionListener.assistSessionStarted(ContentAssistProcessor.java:124)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.lambda$10(ContentAssistant.java:2467)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4797)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent(ContentAssistant.java:2464)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions(ContentAssistant.java:1886)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1854)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:189)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:232)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1798)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5155)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4778)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.ui.text.javadoc.LegacyJavadocCompletionProposalComputer cannot be found by org.eclipse.mylyn.java.ui_3.24.0.v20170629-2230
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+	... 75 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2022-10-07 15:27:45.236
+!MESSAGE Plug-in org.eclipse.mylyn.java.ui was unable to load class org.eclipse.jdt.internal.ui.text.javadoc.LegacyJavadocCompletionProposalComputer.
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.jdt.internal.ui.text.javadoc.LegacyJavadocCompletionProposalComputer cannot be found by org.eclipse.mylyn.java.ui_3.24.0.v20170629-2230
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.createComputer(CompletionProposalComputerDescriptor.java:323)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.getComputer(CompletionProposalComputerDescriptor.java:290)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.sessionStarted(CompletionProposalComputerDescriptor.java:436)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.sessionStarted(CompletionProposalCategory.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$CompletionListener.assistSessionStarted(ContentAssistProcessor.java:124)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.lambda$10(ContentAssistant.java:2467)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4797)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent(ContentAssistant.java:2464)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions(ContentAssistant.java:1886)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1854)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:189)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:232)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1798)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5155)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4778)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5034)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-10-07 15:28:05.713
+!MESSAGE Error occured processing 'com.ProductBackendApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-10-07 15:30:56.623
+!MESSAGE Error occured processing 'com.ProductBackendApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-10-07 15:53:15.426
+!MESSAGE Error occured processing 'com.ProductBackendApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-10-07 15:53:35.680
+!MESSAGE Error occured processing 'com.ProductBackendApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-10-07 15:53:49.354
+!MESSAGE Error occured processing 'com.ProductBackendApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
