@@ -1,0 +1,451 @@
+{
+"timestamp": 1665403932815,
+"name": "Ricadonna",
+"transport_address": "inet[/172.31.86.119:9300]",
+"host": "ip-172-31-86-119.ec2.internal",
+"ip": [
+"inet[/172.31.86.119:9300]"
+,
+"NONE"
+],
+"indices": {
+"docs": {
+"count": 0,
+"deleted": 0
+},
+"store": {
+"size_in_bytes": 0,
+"throttle_time_in_millis": 0
+},
+"indexing": {
+"index_total": 0,
+"index_time_in_millis": 0,
+"index_current": 0,
+"delete_total": 0,
+"delete_time_in_millis": 0,
+"delete_current": 0,
+"noop_update_total": 0,
+"is_throttled": false,
+"throttle_time_in_millis": 0
+},
+"get": {
+"total": 0,
+"time_in_millis": 0,
+"exists_total": 0,
+"exists_time_in_millis": 0,
+"missing_total": 0,
+"missing_time_in_millis": 0,
+"current": 0
+},
+"search": {
+"open_contexts": 0,
+"query_total": 0,
+"query_time_in_millis": 0,
+"query_current": 0,
+"fetch_total": 0,
+"fetch_time_in_millis": 0,
+"fetch_current": 0
+},
+"merges": {
+"current": 0,
+"current_docs": 0,
+"current_size_in_bytes": 0,
+"total": 0,
+"total_time_in_millis": 0,
+"total_docs": 0,
+"total_size_in_bytes": 0
+},
+"refresh": {
+"total": 0,
+"total_time_in_millis": 0
+},
+"flush": {
+"total": 0,
+"total_time_in_millis": 0
+},
+"warmer": {
+"current": 0,
+"total": 0,
+"total_time_in_millis": 0
+},
+"filter_cache": {
+"memory_size_in_bytes": 0,
+"evictions": 0
+},
+"id_cache": {
+"memory_size_in_bytes": 0
+},
+"fielddata": {
+"memory_size_in_bytes": 0,
+"evictions": 0
+},
+"percolate": {
+"total": 0,
+"time_in_millis": 0,
+"current": 0,
+"memory_size_in_bytes": -1,
+"memory_size": "-1b",
+"queries": 0
+},
+"completion": {
+"size_in_bytes": 0
+},
+"segments": {
+"count": 0,
+"memory_in_bytes": 0,
+"index_writer_memory_in_bytes": 0,
+"index_writer_max_memory_in_bytes": 0,
+"version_map_memory_in_bytes": 0,
+"fixed_bit_set_memory_in_bytes": 0
+},
+"translog": {
+"operations": 0,
+"size_in_bytes": 0
+},
+"suggest": {
+"total": 0,
+"time_in_millis": 0,
+"current": 0
+},
+"query_cache": {
+"memory_size_in_bytes": 0,
+"evictions": 0,
+"hit_count": 0,
+"miss_count": 0
+},
+"recovery": {
+"current_as_source": 0,
+"current_as_target": 0,
+"throttle_time_in_millis": 0
+}
+},
+"os": {
+"timestamp": 1665403932593,
+"uptime_in_millis": 6256,
+"load_average": [
+0.01
+,
+0.01
+,
+0
+],
+"cpu": {
+"sys": 0,
+"user": 0,
+"idle": 98,
+"usage": 0,
+"stolen": 0
+},
+"mem": {
+"free_in_bytes": 91582464,
+"used_in_bytes": 921083904,
+"free_percent": 56,
+"used_percent": 43,
+"actual_free_in_bytes": 573181952,
+"actual_used_in_bytes": 439484416
+},
+"swap": {
+"used_in_bytes": 0,
+"free_in_bytes": 0
+}
+},
+"process": {
+"timestamp": 1665403932593,
+"open_file_descriptors": 105,
+"cpu": {
+"percent": 0,
+"sys_in_millis": 950,
+"user_in_millis": 20830,
+"total_in_millis": 21780
+},
+"mem": {
+"resident_in_bytes": 250585088,
+"share_in_bytes": 19898368,
+"total_virtual_in_bytes": 3167748096
+}
+},
+"jvm": {
+"timestamp": 1665403932593,
+"uptime_in_millis": 5440624,
+"mem": {
+"heap_used_in_bytes": 75058952,
+"heap_used_percent": 7,
+"heap_committed_in_bytes": 259719168,
+"heap_max_in_bytes": 1065025536,
+"non_heap_used_in_bytes": 46107584,
+"non_heap_committed_in_bytes": 47046656,
+"pools": {
+"young": {
+"used_in_bytes": 49281712,
+"max_in_bytes": 69795840,
+"peak_used_in_bytes": 69795840,
+"peak_max_in_bytes": 69795840
+},
+"survivor": {
+"used_in_bytes": 8716288,
+"max_in_bytes": 8716288,
+"peak_used_in_bytes": 8716288,
+"peak_max_in_bytes": 8716288
+},
+"old": {
+"used_in_bytes": 17060952,
+"max_in_bytes": 986513408,
+"peak_used_in_bytes": 17060952,
+"peak_max_in_bytes": 986513408
+}
+}
+},
+"threads": {
+"count": 26,
+"peak_count": 26
+},
+"gc": {
+"collectors": {
+"young": {
+"collection_count": 2,
+"collection_time_in_millis": 94
+},
+"old": {
+"collection_count": 1,
+"collection_time_in_millis": 39
+}
+}
+},
+"buffer_pools": {
+"direct": {
+"count": 17,
+"used_in_bytes": 4239494,
+"total_capacity_in_bytes": 4239494
+},
+"mapped": {
+"count": 0,
+"used_in_bytes": 0,
+"total_capacity_in_bytes": 0
+}
+}
+},
+"thread_pool": {
+"percolate": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"fetch_shard_started": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"listener": {
+"threads": 1,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 1,
+"completed": 501
+},
+"index": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"refresh": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"suggest": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"generic": {
+"threads": 1,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 2,
+"completed": 552
+},
+"warmer": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"search": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"flush": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"optimize": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"fetch_shard_store": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"management": {
+"threads": 2,
+"queue": 0,
+"active": 1,
+"rejected": 0,
+"largest": 2,
+"completed": 723
+},
+"get": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"merge": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"bulk": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+},
+"snapshot": {
+"threads": 0,
+"queue": 0,
+"active": 0,
+"rejected": 0,
+"largest": 0,
+"completed": 0
+}
+},
+"network": {
+"tcp": {
+"active_opens": 178,
+"passive_opens": 24,
+"curr_estab": 34,
+"in_segs": 27965,
+"out_segs": 21916,
+"retrans_segs": 12,
+"estab_resets": 8,
+"attempt_fails": 0,
+"in_errs": 0,
+"out_rsts": 30
+}
+},
+"fs": {
+"timestamp": 1665403932593,
+"total": {
+"total_in_bytes": 17167265792,
+"free_in_bytes": 15206014976,
+"available_in_bytes": 15206014976,
+"disk_reads": 16514,
+"disk_writes": 15359,
+"disk_io_op": 31873,
+"disk_read_size_in_bytes": 279913984,
+"disk_write_size_in_bytes": 836463616,
+"disk_io_size_in_bytes": 1116377600,
+"disk_queue": "0",
+"disk_service_time": "0"
+},
+"data": [
+{
+"path": "/var/lib/elasticsearch/elasticsearch/nodes/0",
+"mount": "/",
+"dev": "/dev/xvda1",
+"type": "xfs",
+"total_in_bytes": 17167265792,
+"free_in_bytes": 15206014976,
+"available_in_bytes": 15206014976,
+"disk_reads": 16514,
+"disk_writes": 15359,
+"disk_io_op": 31873,
+"disk_read_size_in_bytes": 279913984,
+"disk_write_size_in_bytes": 836463616,
+"disk_io_size_in_bytes": 1116377600,
+"disk_queue": "0",
+"disk_service_time": "0"
+}
+]
+},
+"transport": {
+"server_open": 13,
+"rx_count": 6,
+"rx_size_in_bytes": 1680,
+"tx_count": 6,
+"tx_size_in_bytes": 1680
+},
+"http": {
+"current_open": 7,
+"total_opened": 10
+},
+"breakers": {
+"fielddata": {
+"limit_size_in_bytes": 639015321,
+"limit_size": "609.4mb",
+"estimated_size_in_bytes": 0,
+"estimated_size": "0b",
+"overhead": 1.03,
+"tripped": 0
+},
+"request": {
+"limit_size_in_bytes": 426010214,
+"limit_size": "406.2mb",
+"estimated_size_in_bytes": 0,
+"estimated_size": "0b",
+"overhead": 1,
+"tripped": 0
+},
+"parent": {
+"limit_size_in_bytes": 745517875,
+"limit_size": "710.9mb",
+"estimated_size_in_bytes": 0,
+"estimated_size": "0b",
+"overhead": 1,
+"tripped": 0
+}
+}
+}
