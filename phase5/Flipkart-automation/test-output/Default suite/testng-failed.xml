@@ -6,7 +6,7 @@
       <class name="com.testing.Automation_firefox">
         <methods>
           <include name="afterMethod"/>
-          <include name="f"/>
+          <include name="search"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.testing.Automation_firefox -->

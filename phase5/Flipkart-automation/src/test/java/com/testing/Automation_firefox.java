@@ -27,7 +27,7 @@ public class Automation_firefox {
 			 System.out.println("sucesfully searched iphone 13");
 			 
 			 
-			driver.get("https://www.flipkart.com/apple-iphone-13-starlight-128-gb/p/itmc9604f122ae7f?pid=MOBG6VF5ADKHKXFX&lid=LSTMOBG6VF5ADKHKXFX4LCPEV&marketplace=FLIPKART&q=iphone+13&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=organic&iid=1d812cc2-2c5a-4615-bddf-59e401b8e3bf.MOBG6VF5ADKHKXFX.SEARCH&ppt=hp&ppn=homepage&ssid=z6kiqmf48w0000001665482727584&qH=c68a3b83214bb235");
+			//driver.get("https://www.flipkart.com/apple-iphone-13-starlight-128-gb/p/itmc9604f122ae7f?pid=MOBG6VF5ADKHKXFX&lid=LSTMOBG6VF5ADKHKXFX4LCPEV&marketplace=FLIPKART&q=iphone+13&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=organic&iid=1d812cc2-2c5a-4615-bddf-59e401b8e3bf.MOBG6VF5ADKHKXFX.SEARCH&ppt=hp&ppn=homepage&ssid=z6kiqmf48w0000001665482727584&qH=c68a3b83214bb235");
 			JavascriptExecutor jse = (JavascriptExecutor)driver;
 		    jse.executeScript("window.scrollBy(0,1000)", "");
 		    System.out.println("Sucesfully scrolled");
@@ -49,7 +49,10 @@ public class Automation_firefox {
 		    } else {
 		       System.out.println("Image not loaded ");
 		    }
+		    
+			
 
+			
 			JavascriptExecutor js=(JavascriptExecutor)driver;
 			js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 			System.out.println("Reached to bottom of page");
